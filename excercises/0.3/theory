@@ -1,0 +1,8 @@
+9
+	no it does not. For example; using a double precision float the mantissa would be able to handle 52 bits.
+	so while 1 + 2^-52  can be represented, 1 + 2^-53 cannot.
+	therefor 1 + 2^-53 + 2^-53 will evaluate to 1 while
+	2^-53 + 2^-53 + 1 will evaluate to 1 + 2^⁻52 as it should.
+
+7
+	
